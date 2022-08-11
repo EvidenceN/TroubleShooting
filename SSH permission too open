@@ -1,0 +1,2 @@
+Windows SSH: Permissions for 'private-key' are too open (also applicable to AWS SSH login to EC2 instance)
+Potential Solution - https://superuser.com/questions/1296024/windows-ssh-permissions-for-private-key-are-too-open#:~:text=436-,You%20locate%20the%20file,-in%20Windows%20Explorer
