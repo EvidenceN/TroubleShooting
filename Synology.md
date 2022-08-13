@@ -28,3 +28,8 @@ Running this will show available space in volumes and synology system
 example `du -h folder_name` If already in the folder of interest, 
 just run the command without the folder_name
 
+to see usage at the folder level instead of file level run
+`du -ks`
+
+
+
