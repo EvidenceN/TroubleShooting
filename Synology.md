@@ -31,5 +31,19 @@ just run the command without the folder_name
 to see usage at the folder level instead of file level run
 `du -ks`
 
+**SOLUTION THAT WORKS.** 
+Uninstall `Synology Drive Server, Synology Drive, Synology Photos, Synology Office` During the uninstallation, do not click the button to remove system settings. 
+Uninstalling synology photos is not necessary if you are not having any problems with the application. 
+
+Run this again `systemctl start pgsql-adapter.service`
+
+This time, the pgsql adapter should start. 
+
+Then Run `Synology Application Service` If this process is successful, that confirms psql is working
+
+Then reinstall all the uninstalled applications. 
+
+
+
 
 
